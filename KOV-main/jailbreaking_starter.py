@@ -11,7 +11,7 @@ Original file is located at
 !pip install openai==0.28
 
 import os
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ['OPENAI_API_KEY'] = "API-KEY"
 from KOV import startKOV
 
 startKOV("advbench_subset.csv", "lmsys/vicuna-7b-v1.5")
